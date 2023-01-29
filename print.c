@@ -13,8 +13,6 @@
 #define Segment_dot (7)
 #define MASK(x)  (1UL << (x))
 
-void PORTD_IRQHandler(void);
-
 
 void print (void) 
 {
