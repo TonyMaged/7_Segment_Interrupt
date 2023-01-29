@@ -54,13 +54,13 @@ void print (void)
         	 PTC->PDOR = 0x7F;		//8 in for h,g,f,e,d,c,b,a Cathode configuration
          break;
 				 
-				 case 9:
-        	 Global_counter =0	;
+	 case 9:
+        	 Global_counter =0;
          break;
 				 
-				 default:
-					  Global_counter =8	;//0 in for h,g,f,e,d,c,b,a Cathode configuration
-				 break;
+	 default:
+		 Global_counter =8;
+	 break;
 
       
       }
